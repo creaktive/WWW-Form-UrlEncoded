@@ -2,6 +2,10 @@ Revision history for Perl extension WWW-Form-UrlEncoded
 
 {{$NEXT}}
 
+0.24 2017-02-28T06:15:18Z
+
+   - updated by Minil 3
+
 0.23 2015-11-19T00:33:17Z
 
    - bugfix. parse(undef) return arrayref
