@@ -38,7 +38,7 @@ my %args = (
     },
 
     test_requires => {
-        'JSON' => '2',
+        'JSON::PP' => '2',
         'Test::More' => '0.98',
     },
 
