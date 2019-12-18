@@ -14,7 +14,7 @@ BEGIN {
         eval {
             require WWW::Form::UrlEncoded::XS;
             if ( $WWW::Form::UrlEncoded::XS::VERSION < $VERSION ) {
-                warn "WWW::Form::UrlEncoded::XS $VERSION is require. fallback to PP version";
+                warn "WWW::Form::UrlEncoded::XS $VERSION is required. fallback to PP version";
                 die;
             }
         };
